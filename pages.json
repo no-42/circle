@@ -1,0 +1,209 @@
+{
+	"easycom": {
+		"autoscan": true,
+		// 注意一定要放在custom里，否则无效，https://ask.dcloud.net.cn/question/131175
+		"custom": {
+			"^u--(.*)": "uview-plus/components/u-$1/u-$1.vue",
+			"^up-(.*)": "uview-plus/components/u-$1/u-$1.vue",
+			"^u-([^-].*)": "uview-plus/components/u-$1/u-$1.vue"
+		}
+	},
+	"pages": [{
+			"path": "pages/index",
+			"style": {
+				// 隐藏顶部菜单状态栏
+				"navigationStyle": "custom",
+				"app-plus": {
+					// 禁用原生导航
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/view/loginAndRegister",
+			"style": {
+				// 隐藏顶部菜单状态栏
+				"navigationStyle": "custom",
+				"app-plus": {
+					// 禁用原生导航
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/view/register/registerFirstStep",
+			"style": {
+				// 隐藏顶部菜单状态栏
+				"navigationStyle": "custom",
+				"app-plus": {
+					// 禁用原生导航
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/view/login",
+			"style": {
+				// 隐藏顶部菜单状态栏
+				"navigationStyle": "custom",
+				"app-plus": {
+					// 禁用原生导航
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/view/mainView",
+			"style": {
+				// 隐藏顶部菜单状态栏
+				"navigationStyle": "custom",
+				"app-plus": {
+					// 禁用原生导航
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/view/register/registerSecondStep",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					// 禁用原生导航
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/view/register/registerThirdStep",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					// 禁用原生导航
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/component/FullMessage",
+			"style": {
+				// 隐藏顶部菜单状态栏
+				"navigationStyle": "custom",
+				"app-plus": {
+					// 禁用原生导航
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/view/home",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/view/message",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/view/sendMessage",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					// 禁用原生导航
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/view/myself",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/view/report/report",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					// 禁用原生导航
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/view/report/submit",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					// 禁用原生导航
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/view/myselfChild/myselfDetail",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					// 禁用原生导航
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/view/myselfChild/updateDetail",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					// 禁用原生导航
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/view/myselfChild/setting",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					// 禁用原生导航
+					"titleNView": false
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "circle",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "white",
+		"app-plus": {
+			"background": "white"
+		}
+	},
+	"tabBar": {
+		"blurEffect":"light",
+		"color": "#F0AD4E",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+//		"backgroundColor": "#F8F8F8",
+		"list": [{
+			"pagePath": "pages/view/home",
+			"iconPath": "static/img/drawable-xxxhdpi/unHomeChecked.png",
+			"selectedIconPath": "static/img/drawable-xxxhdpi/homeChecked.png"
+		}, {
+			"pagePath": "pages/view/message",
+			"iconPath": "static/img/drawable-xxxhdpi/unCheckMessage.png",
+			"selectedIconPath": "static/img/drawable-xxxhdpi/checkMessage.png"
+		}, {
+			"pagePath": "pages/view/sendMessage",
+			"iconPath": "static/img/drawable-xxxhdpi/unCheckSendMessage.png",
+			"selectedIconPath": "static/img/drawable-xxxhdpi/unCheckSendMessage.png"
+		}, {
+			"pagePath": "pages/view/myself",
+			"iconPath": "static/img/drawable-xxxhdpi/unCheckMyself.png",
+			"selectedIconPath": "static/img/drawable-xxxhdpi/checkMyself.png"
+		}]
+	}
+}
