@@ -52,7 +52,7 @@ function setDetail() {
 
 function updateSetting() {
   simpleNavigateTo(
-      "/pages/view/myselfChild/setting"
+      "/pages/view/setting/setting"
   )
 }
 

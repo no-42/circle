@@ -163,7 +163,7 @@
 			}
 		},
 		{
-			"path": "pages/view/myselfChild/setting",
+			"path": "pages/view/setting/setting",
 			"style": {
 				"navigationStyle": "custom",
 				"app-plus": {
