@@ -38,6 +38,7 @@ function getChat() {
 
 function closeChat() {
   showChat.value = false
+  uni.showTabBar({})
 }
 
 onMounted(() => {

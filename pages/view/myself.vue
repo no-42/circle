@@ -78,6 +78,9 @@ onMounted(() => {
 
 <template>
   <view>
+    <view class="my_status_bar">
+      <!-- 这里是状态栏 -->
+    </view>
     <view id="topView">
       <view style="display: flex;flex-direction: row;justify-content: space-between;" class="top-item">
         <view>

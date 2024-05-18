@@ -171,6 +171,16 @@
 					"titleNView": false
 				}
 			}
+		},
+		{
+			"path": "pages/component/camera/camera",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					// 禁用原生导航
+					"titleNView": false
+				}
+			}
 		}
 	],
 	"globalStyle": {
@@ -197,7 +207,7 @@
 			"iconPath": "static/img/drawable-xxxhdpi/unCheckMessage.png",
 			"selectedIconPath": "static/img/drawable-xxxhdpi/checkMessage.png"
 		}, {
-			"pagePath": "pages/view/sendMessage",
+			"pagePath": "pages/component/camera/camera",
 			"iconPath": "static/img/drawable-xxxhdpi/unCheckSendMessage.png",
 			"selectedIconPath": "static/img/drawable-xxxhdpi/unCheckSendMessage.png"
 		}, {
