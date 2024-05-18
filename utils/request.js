@@ -1,9 +1,11 @@
 import axios from "axios"
+import axiosAdapterUniapp from 'axios-adapter-uniapp'
 import message from "./message";
 // 创建一个自定义的Axios对象
 // axios.defaults.headers['Content-Type'] = 'application/json;charset=utf-8'
 const Axios = axios.create({
     baseURL: '/api_v3',
+    adapter: axiosAdapterUniapp,
     timeout: 3000,
     /*也可以不设置Content-Type，影响是在你发送请求时
     Vue会先发送OPTIONS包探测路由是否存在，需要后端也做设置响应OPTIONS

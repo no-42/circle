@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import {ref, onMounted, getCurrentInstance, nextTick} from "vue";
+import {ref, onMounted, getCurrentInstance} from "vue";
 import {uploadImg} from "@/api/upload.js"
 
 const emit = defineEmits(['getInputMessage'])
@@ -115,7 +115,6 @@ const editorRef = ref(null);
                 placeholder="评论"
                 @keydown.enter="sendMessage"
                 @input="inputConsole"
-                v-model="commentMessage"
                 ref="editorRef"
                 @focus="focusEditor=true"
                 @blur="focusEditor=false">
